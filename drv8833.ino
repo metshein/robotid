@@ -1,11 +1,11 @@
 // DRV8833 + UNO (algne pinniskeem): AIN1=2, AIN2=3, BIN1=4, BIN2=5, nSLEEP=7
 // Funktsioonid: forward, reverse, leftTurn, rightTurn, coast, brake, wake, sleepDrv
 
-const int AIN1 = 2;
-const int AIN2 = 3;
-const int BIN1 = 4;
-const int BIN2 = 5;
-const int nSLEEP = 7;
+const int AIN1 = 5;
+const int AIN2 = 6;
+const int BIN1 = 7;
+const int BIN2 = 8;
+const int nSLEEP = 9;
 
 void wake()      { digitalWrite(nSLEEP, HIGH); }  // draiver töörežiimi
 void sleepDrv()  { digitalWrite(nSLEEP, LOW);  }  // draiver standby
